@@ -33,7 +33,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: #ffffff;
   font-weight: bold;
 
   line-height: 1.7;
@@ -121,7 +121,7 @@ table {
 }
 
 table, th, td {
-	border: 2px solid white;
+	border: 2px solid #ffffff;
 }
 
 th {
@@ -135,7 +135,7 @@ th {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $blue;
 }
 
 // Specify the color of the selection
