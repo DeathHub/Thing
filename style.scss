@@ -210,7 +210,7 @@ th {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $lightGray;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -220,7 +220,7 @@ th {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: #ffffff;
   font-size: 16px;
 
   @include mobile {
@@ -272,9 +272,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid $lightgray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: $lightgray;
     font-size: 22px;
     font-style: italic;
   }
