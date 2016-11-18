@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background-image: url("http://orig11.deviantart.net/42fc/f/2012/285/3/2/handsome_jack___wallpaper_by_pokethecactus-d5hljqg.jpg");
+    background-image: url("http://vignette4.wikia.nocookie.net/fictionalcompanies/images/1/10/Blume_Corporation_logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -33,7 +33,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #ffffff;
+  color: $blue;
   font-weight: bold;
 
   line-height: 1.7;
@@ -62,7 +62,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #ffffff;
+  color: $blue;
 }
 
 p {
@@ -74,11 +74,11 @@ p {
 }
 
 a {
-  color: #ffffff;
+  color: $blue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #ffffff;
+    color: $blue;
   }
 }
 
@@ -121,12 +121,12 @@ table {
 }
 
 table, th, td {
-	border: 2px solid #ffffff;
+	border: 2px solid #000000;
 }
 
 th {
-	color: #ffffff;
-	background: #ffffff;
+	color: $blue;
+	background: $blue;
 }
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
